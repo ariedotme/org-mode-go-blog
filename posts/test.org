@@ -1,0 +1,100 @@
+#+TITLE: Giant Test Post
+#+AUTHOR: Arie
+#+OPTIONS: toc:2 num:t
+#+TAGS: test, test2, test3, ioqjwfqwf, oiqjwfiqwf, oiqjwfoijqwf, oiqjwofijqwfowiqfjoiqfjoiqwfjqw
+#+DATE: 2025-01-16
+
+[[../images/test.png]]
+
+* Introduction
+Welcome to the giant test post! This is a comprehensive org-mode file designed to test all the features of your parser.
+
+Here is a quick introduction to what this file contains:
+- Headers and subheaders
+- Lists (ordered, unordered, and mixed)
+- Tables
+- Code blocks
+- Images
+- Links
+
+* Headers and Subheaders
+** First Level Subheader
+This is a first-level subheader. It contains some regular text.
+
+*** Second Level Subheader
+This is a second-level subheader. It includes:
+1. An ordered list item
+2. Another ordered list item
+
+*** Another Subheader
+Here is an example of a bullet list:
+- First bullet
+- Second bullet
+  - Sub-bullet 1
+  - Sub-bullet 2
+
+** Mixed Lists
+Here’s an example of a mixed list:
+1. Step one
+   - Subtask A
+   - Subtask B
+2. Step two
+   - Subtask C
+
+* Tables
+Here’s an example table:
+
+| Name    | Age | Role       |
+|---------+-----+------------|
+| Alice   | 30  | Developer  |
+| Bob     | 25  | Designer   |
+| Charlie | 35  | Manager    |
+
+* Code Blocks
+Here’s a sample code block in different languages:
+
+#+BEGIN_SRC python
+def hello_world():
+    print("Hello, World!")
+#+END_SRC
+
+#+BEGIN_SRC go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+#+END_SRC
+
+* Images
+Here’s an example of including an image:
+
+[[../images/sample_image.png]]
+
+* Links
+Here are some links:
+- [[https://example.com][Example Website]]
+- [[mailto:you@example.com][Send Email]]
+
+* Large Section for Performance
+This is a large section with a lot of text to test the parser’s performance. Copy-pasting "lorem ipsum" multiple times:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+* Repeated Section
+** Subsection 1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+** Subsection 2
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+** Subsection 3
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+** Subsection 4
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+** Subsection 5
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.

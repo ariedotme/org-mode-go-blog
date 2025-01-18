@@ -1,0 +1,12 @@
+{{ define "content" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Date }}</p>
+    <div>{{ .Content }}</div>
+    <ul>
+        {{ range .Tags }}
+        <li><a href="/tags/{{ . }}">#{{ . }}</a></li>
+        {{ end }}
+    </ul>
+</article>
+{{ end }}

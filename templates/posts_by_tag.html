@@ -1,0 +1,13 @@
+{{ define "content" }}
+<h1>Posts Tagged: {{ .Tag }}</h1>
+<ul>
+    {{ range .Posts }}
+    <li>
+        <a href="/post/{{ .Path }}">{{ .Title }}</a> - {{ .Date }}
+    </li>
+    {{ end }}
+</ul>
+{{ if not .HasPosts }}
+<p>No posts found for this tag.</p>
+{{ end }}
+{{ end }}

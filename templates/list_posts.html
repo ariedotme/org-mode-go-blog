@@ -1,0 +1,19 @@
+{{ define "content" }}
+<h1>Latest Posts</h1>
+<ul>
+    {{ range .Posts }}
+    <li>
+        <a href="/{{ .Path }}">{{ .Title }}</a> {{ .Date }}
+    </li>
+    {{ end }}
+</ul>
+
+<div class="pagination">
+    {{ if gt .Page 1 }}
+    <a href="/posts?page={{ sub .Page 1 }}">Previous</a>
+    {{ end }}
+    {{ if .HasNextPage }}
+    <a href="/posts?page={{ add .Page 1 }}">Next</a>
+    {{ end }}
+</div>
+{{ end }}

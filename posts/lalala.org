@@ -1,0 +1,8 @@
+#+TITLE: Small Test
+#+AUTHOR: Arie
+#+OPTIONS: toc:2 num:t
+#+TAGS: test, test2, test3, ioqjwfqwf, oiqjwfiqwf
+#+DATE: 2025-01-17
+
+
+* Testing!
